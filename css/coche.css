@@ -1,0 +1,34 @@
+* { 
+	margin: 0px auto; 
+	padding: 0px; 
+}
+h1 { 
+	font:bold 1.5em arial; 
+	text-align: center; 
+	padding: 0.5em ; 
+}
+#contenedor { 
+	/*El posicionamiento absoluto se emplea para establecer de forma exacta la posición en la que se muestra la caja de un elemento. Posteriormente, se indica la posición de la caja con las propiedades top, right, bottom y left*/
+	position: absolute; 
+	top: 100px; 
+	left: 200px; 
+	width: 450px; 
+    height: 300px; 
+    overflow: hidden; /*El contenido que se salga del contenedor se ocultará*/
+}
+#fondouno { 
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+}
+
+#fondodos { 
+	position: absolute; 
+	top: 0px; 
+	left: 450px; 
+}
+
+#autobus { 
+	position: absolute; 
+	top: 100px; 
+}

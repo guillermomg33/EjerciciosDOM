@@ -1,0 +1,9 @@
+#destino {
+    border: solid 1px black;
+    width: 400px;
+    height: 400px;
+}
+
+#botones {
+    margin-top: 20px;
+}

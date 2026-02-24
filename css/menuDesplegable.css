@@ -1,0 +1,37 @@
+body{
+    font-family: Arial;
+    padding: 20px;
+}
+
+/* Botón */
+button{
+    padding: 10px 15px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Lista */
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    background: #f4f6f9;
+    width: 150px;
+    border-radius: 5px;
+}
+
+li{
+    padding: 10px;
+}
+
+li:hover{
+    background: #ddd;
+}
+
+/* Clase para ocultar */
+.oculto{
+    display: none;
+}

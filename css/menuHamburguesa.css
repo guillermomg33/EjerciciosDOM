@@ -1,0 +1,72 @@
+/*¡¡¡Atención!!! Faltan los estilos de la media query*/
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+header{
+    background:#2563eb;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/* Menú normal */
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+/* Botón hamburguesa oculto en escritorio */
+.hamburguesa{
+    display:none;
+    font-size:24px;
+    background:none;
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    nav{
+        position:absolute;
+        top:60px;
+        left:0;
+        width:100%;
+        background:#1e40af;
+        display:none;
+    }
+
+    nav ul {
+        flex-direction:column;
+        padding:10px;
+    }
+
+    nav ul li {
+        padding:10px 0;
+    }
+
+    .hamburguesa{
+        display:block;
+    }
+
+    nav.mostrar{
+        display:block;
+    }
+}
